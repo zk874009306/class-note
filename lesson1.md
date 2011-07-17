@@ -1,59 +1,59 @@
-Global setup:
+# Global setup:
  
- Set up git
-  git config --global user.name "Your Name"
-  git config --global user.email zk306516@163.com
+## Set up git
+   git config --global user.name "Your Name"
+   git config --global user.email zk306516@163.com
 
 
-Next steps:
+# Next steps:
   
-  mkdir class-note
-  cd class-note
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:zk874009306/class-note.git
-  git push -u origin master
+## mkdir class-note
+   cd class-note
+   git init
+   touch README
+   git add README
+   git commit -m 'first commit'
+   git remote add origin git@github.com:zk874009306/class-note.git
+   git push -u origin master
 
 
-Existing Git Repo?
+#Existing Git Repo?
   
   cd existing_git_repo
 
-bal setup:
+# bal setup:
 
- Set up git
-  git config --global user.name "Your Name"
-  git config --global user.email zk306516@163.com
+## Set up git
+   git config --global user.name "Your Name"
+   git config --global user.email zk306516@163.com
         
 
-Next steps:
+# Next steps:
 
-  mkdir class-note
-  cd class-note
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:zk874009306/class-note.git
-  git push -u origin master
+   mkdir class-note
+   cd class-note
+   git init
+   touch README
+   git add README
+   git commit -m 'first commit'
+   git remote add origin git@github.com:zk874009306/class-note.git
+   git push -u origin master
       
 
-Existing Git Repo?
+# Existing Git Repo?
 
-  cd existing_git_repo
-  git remote add origin git@github.com:zk874009306/class-note.git
-  git push -u origin master
+   cd existing_git_repo
+   git remote add origin git@github.com:zk874009306/class-note.git
+   git push -u origin master
       
 
-Importing a Subversion Repo?
+# Importing a Subversion Repo?
 
-  Click here
+   Click here
       
 
-When you're done:
+# When you're done:
 
-  Continue
+   Continue
 
 
