@@ -2,18 +2,26 @@
  
 ## Set up git
    git config --global user.name "Your Name"
+
    git config --global user.email zk306516@163.com
 
 
 # Next steps:
   
 ## mkdir class-note
+
    cd class-note
+
    git init
+
    touch README
+
    git add README
+
    git commit -m 'first commit'
+
    git remote add origin git@github.com:zk874009306/class-note.git
+
    git push -u origin master
 
 
@@ -24,26 +32,37 @@
 # bal setup:
 
 ## Set up git
+
    git config --global user.name "Your Name"
+
    git config --global user.email zk306516@163.com
         
 
 # Next steps:
 
    mkdir class-note
+
    cd class-note
+
    git init
+
    touch README
+
    git add README
+
    git commit -m 'first commit'
+
    git remote add origin git@github.com:zk874009306/class-note.git
+
    git push -u origin master
       
 
 # Existing Git Repo?
 
    cd existing_git_repo
+
    git remote add origin git@github.com:zk874009306/class-note.git
+
    git push -u origin master
       
 
