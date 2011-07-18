@@ -67,7 +67,7 @@ END
 
   4.  copy key to address and  creat it
 
-  #note at class
+#note at class
 
   当vim 打开一个文件出现异常状态时（重复打开或着异常关闭）就会生成一个垃圾文件 .  .swp 关闭窗口重新删除 垃圾文件后vim可正常打开该文件。
 
