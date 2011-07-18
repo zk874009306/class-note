@@ -3,21 +3,21 @@
 
 my note 
 
-1 creat a file 
+1. creat a file 
 
-2 input git init           //  (get . .. ..git)
+2. input git init           //  (get . .. ..git)
 
-3 vim hello.c 
+3. vim hello.c 
 
-4 git add hello.c   // （add hell.c to .git)
+4. git add hello.c   // （add hell.c to .git)
 
-5 git  commit -a -m "first version"   // (creat a version file)
+5. git  commit -a -m "first version"   // (creat a version file)
 
-6 git                 // (查看以前的版本 )
+6. git                 // (查看以前的版本 )
 
-7 git history + num  // (scan history)
+7. git history + num  // (scan history)
 
-
+       
 END
 
 ## git basics
@@ -57,15 +57,17 @@ END
 
   注册github keys的生成:
 
-  0 home 目录上 input pwd ; 
+  0.  home 目录上 input pwd ; 
 
-  1 在桌面目录上 input ssh key-gen 
+  1.  在桌面目录上 input ssh key-gen 
 
-  2 dispay file  // input ls 
+  2.  dispay file  // input ls 
 
-  3 open id_rsa.pub  // vim id _rsa.pub
+  3.  open id_rsa.pub  // vim id _rsa.pub
 
-  4 copy key to address and  creat it
+  4.  copy key to address and  creat it
+
+  #note at class
 
   当vim 打开一个文件出现异常状态时（重复打开或着异常关闭）就会生成一个垃圾文件 .  .swp 关闭窗口重新删除 垃圾文件后vim可正常打开该文件。
 
@@ -81,11 +83,11 @@ END
 
   进入可视行模式后想退出该模式直接再按 v 即可
 
-  进入可视行模式整体缩进 按" < "  or " > ".
+  进入可视行模式整体缩进 按 " < "  or  " > " .
 
   同时打开两个文件 显示一个 另一个存在 buffer 里 
 
-  两个文件相互切换  vim  :": bn " or ": bp "
+  两个文件相互切换  vim  : ": bn " or  ": bp "
 
   关闭一个文件 bd  (buffer delete)
 
