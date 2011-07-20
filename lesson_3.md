@@ -12,6 +12,7 @@
 #how to take detailed notes
 	1.add " editor = vim " in .tigconfig open it in vim at home ~/.
 	(change editable file into vim form)
+
 	2.you can input" git commit -a" after you modify your note. 
 
 	3.The head line you can input any thing because it is first line your topic. 
