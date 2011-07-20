@@ -76,6 +76,8 @@ END
 
   vim 进入可是行模式 大写V
 
+  copy press y
+
   cut press  d
 
   past   p 在光标位置下一行粘贴 P 在光标位置的上一行粘贴
@@ -87,6 +89,8 @@ END
   同时打开两个文件 显示一个 另一个存在 buffer 里 
 
   两个文件相互切换  vim  : ": bn " or  ": bp "
+
+  当切换出现异常有一两个文件未保存的提示，可在桌面目录下用vim打开 .vimrc 文件在里边输入 set hidden 
 
   关闭一个文件 bd  (buffer delete)
 
