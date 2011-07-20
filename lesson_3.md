@@ -2,7 +2,7 @@
 ##part I
 	1. 系统经过 main 函数的返回值判断程序是否成功：
 
-	2. 不关vim  vim中启动bash  输入" ： sh"  进入bash 开始编译，如果想退出 bas	h   Ctrl + d 或输入 exit. 修改后必需保存.
+	2. 不关vim  vim中启动bash  输入" ： sh"  进入bash 开始编译，如果想退出 bash   Ctrl + d 或输入 exit. 修改后必需保存.
 ##part II
 	1. press "u" means go back in vim , Ctrl+r means go ahead.
 	2. echo $? check system return value of number
