@@ -1,5 +1,4 @@
 #git
-## git 
 
 my note 
 
@@ -59,7 +58,7 @@ END
 
   0.  home 目录上 input pwd ; 
 
-  1.  在桌面目录上 input ssh key-gen 
+  1.  在桌面目录上 input ssh-keygen 
 
   2.  dispay file  // input ls 
 
