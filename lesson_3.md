@@ -8,3 +8,12 @@
 	2. echo $? check system return value of number
 	3. The program is right return "0" else return "1".
 	4.gcc -S b.c  generate(生成) " b.s "file  ,view the a.c AS(汇编) file .
+
+#how to take detailed notes
+	1.add " editor = vim " in .tigconfig open it in vim at home ~/.
+	
+	2.you can input" git commit -a" after you modify your note. 
+
+	3.The head line you can input any thing because it is first line your topic. 
+	
+	key point(make sure sencod line is empty,after it you can take your detailed note) 
