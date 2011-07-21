@@ -25,7 +25,12 @@
 给vim安装插件相当于把插件放到主目录的.vim中；
 for instance ,snipMate
 
-download it to somepalce ,unzip it like unzip snipmate.zip
+## snipMate address
+	
+	http://www.vim.org/scripts/script.php?script_id=2540
+
+	download it to somepalce ,unzip it like unzip snipmate.zip
+
 ##how to install snipMate 
 	1.download  it to  a dir ,
 
