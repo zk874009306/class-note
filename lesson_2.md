@@ -94,6 +94,13 @@ END
 
   关闭一个文件 bd  (buffer delete)
 
+## about .gitconfig
 
+	1.open .gitconfig in vim 
+	2.input [alias]
+			throw = reset --hard HEAD
+			throwh = reset --hard HEAD^
+	3.[core]
+		editor = vim 
 
 
