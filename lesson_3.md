@@ -27,7 +27,7 @@ for instance ,snipMate
 
 ## snipMate address
 	
-	http://www.vim.org/scripts/script.php?script_id=2540
+http://www.vim.org/scripts/script.php?script_id=2540
 
 	download it to somepalce ,unzip it like unzip snipmate.zip
 
@@ -56,6 +56,7 @@ for instance ,snipMate
 	3.press "tab" button.
 ## tips 
 	say hello ten times with vim skills 
+	
 	yy--- to copy current line 
 	
 	dd --- to cut current line 
@@ -69,6 +70,7 @@ for instance ,snipMate
 	1.  open .bashrc with vim in home list   ~/
 
 	2.  input alias sagi ='sudo apt-get install'(make sure input correct no other input)
+	
 	3.  source .bashrc  (run .bashrc from the begining to the end)
 
 ## install two interesting software :
