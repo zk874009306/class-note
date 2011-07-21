@@ -16,6 +16,8 @@ my note
 
 7. git history + num  // (scan history)
 
+8. git pull           //update  your modify in other local so that the version(版本) will be same version.
+
        
 END
 

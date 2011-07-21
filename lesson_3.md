@@ -66,4 +66,15 @@ download it to somepalce ,unzip it like unzip snipmate.zip
 
 ## install two interesting software :
 
-	fortune  &  cowsay  
+	fortune  &  cowsay 
+
+## Delete a reporsitory(仓库)
+
+	 open this reporsitory -> admin -> Delete this reporsitory 
+## Delete a file in a reporsitory
+
+	1. git rm this file  
+
+	2. git commit -a 
+
+	3. git push 
