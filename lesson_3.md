@@ -10,7 +10,9 @@
 	4.gcc -S b.c  generate(生成) " b.s "file  ,view the a.c AS(汇编) file .
 
 #how to take detailed notes
-	1.add " editor = vim " in .gitconfig open it in vim at home ~/.
+	1.add 
+	[core]
+		editor = vim in .gitconfig open it in vim at home ~/.
 	(change editable file into vim form)
 
 	2.you can input" git commit -a" after you modify your note. 
