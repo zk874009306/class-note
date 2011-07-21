@@ -17,4 +17,53 @@
 
 	3.The head line you can input any thing because it is first line your topic. 
 	
-	key point(make sure sencod line is empty,after it you can take your detailed note) 
+	key point(make sure sencod line is empty,after it you can take your detailed note)
+
+ 
+给vim安装插件相当于把插件放到主目录的.vim中；
+for instance ,snipMate
+
+download it to somepalce ,unzip it like unzip snipmate.zip
+##how to install snipMate 
+	1.download  it to  a dir ,
+
+	2.cd this dir.
+
+	3.unzip snipMate.zip -d ~/.vim
+	
+	(-d means unzip to where)
+	
+	THE END
+
+##how to set snipMate 
+	1. cd ~/.vim/snippets
+ 
+	2.open c.snippets in vim and veiw it or modify it 
+
+	3.save and quit it .
+## use snipMate in vim 
+	1. vim a file  ,like vim h.c
+
+	2. input key words ,like main , fun ,
+
+	3.press "tab" button.
+## tips 
+	say hello ten times with vim skills 
+	yy--- to copy current line 
+	
+	dd --- to cut current line 
+
+	p ----to past
+
+	(in insert mode you can use Ctrl + n to complete the others content in current file )
+
+##make "sudo apt-get install"  easy , rename it 
+
+	1.  open .bashrc with vim in home list   ~/
+
+	2.  input alias sagi ='sudo apt-get install'(make sure input correct no other input)
+	3.  source .bashrc  (run .bashrc from the begining to the end)
+
+## install two interesting software :
+
+	fortune  &  cowsay  
