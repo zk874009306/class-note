@@ -105,6 +105,8 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
     In insert mode Ctrl_t or Ctrl_d (处理极个别行不对齐的情况) can handle several special line not standard.
 
+3. main in a c file  fun in a function file head file and function declarrtion in a file
+
 ##vim skills
 
 1. help in vim  you can in put :h + "command" then you will know the command how to use.   
