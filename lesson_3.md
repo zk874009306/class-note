@@ -117,6 +117,8 @@ http://www.vim.org/scripts/script.php?script_id=2540
 3. in the search list of Github host input peter-vim you can see peter's .vimrc'
 
 ## some extral skill
+        
+how to visit other computer in a LAN(局域网)
 
         ifconfig view the IP address of your computer .
 
