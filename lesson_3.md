@@ -54,7 +54,9 @@ http://www.vim.org/scripts/script.php?script_id=2540
 	2. input key words ,like main , fun ,
 
 	3.press "tab" button.
-## tips 
+    
+## tips
+
 	say hello ten times with vim skills 
 	
 	yy--- to copy current line 
@@ -99,6 +101,7 @@ http://www.vim.org/scripts/script.php?script_id=2540
 	set expandtab  "把<tab> 展开成空格"
 
 	set tabstop=4  "让一个<tab>等于4个空格"
+    write them in .vim file of the home list .
 
     In insert mode Ctrl_t or Ctrl_d (处理极个别行不对齐的情况) can handle several special line not standard.
 
@@ -110,7 +113,7 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
         you can use :bd or :q exit it .
 
-2.set dictionnary=/usr/share/dict/words
+2.set dictionnary=/usr/share/dict/words       write them in .vimrc file 
 
         you can complete a words in the dictionary in vim by inputg Crtl_x_k at insert mode.
 
