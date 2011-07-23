@@ -115,7 +115,7 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
 2.set dictionnary=/usr/share/dict/words       write them in .vimrc file 
 
-        you can complete a words in the dictionary in vim by inputg Crtl_x_k at insert mode.
+        you can complete a words in the dictionary in vim by inputing Crtl_x_k at insert mode.
 
 3. in the search list of Github host input peter-vim you can see peter's .vimrc'
 
