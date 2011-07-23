@@ -38,3 +38,35 @@ tips: ctags also can use to check serval files like normal c file .
 4 in vim 在函数声明或函数名上Ctrl_]可直接查看该函数，Ctrl_t 只可返回到原处
 
 ldd 查看 一个文件在标准库中的位置
+
+
+# my .vimrc
+
+        set number
+
+        set hidden
+        " 不用保存就可以切换vim同时打开的两个文件“”用 bn bp “ 
+
+        set autoindent
+        "换行后自动对齐"
+
+        set expandtab
+        "把<tab>展开成空格“
+
+        set tabstop=4
+        "让一个<tab>等于4个空格
+
+        set shiftwidth=4
+        "shift_v + >
+
+        " insert mode Ctrl_t or Ctrl_d 处理极个别行不对齐的情况
+
+        set dictionary=/usr/share/dict/words
+
+        "key map
+
+        map,ss :set spell<cr>
+
+        map <tab> :bn<cr>
+
+        imap jj <esc>
