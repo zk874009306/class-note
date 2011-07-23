@@ -136,6 +136,8 @@ how to visit other computer in a LAN(局域网)
         how to start the service     sudo service start 
 
         scp to copy a file use ssh   for instance , scp perter@192.168.1.17:~/hihihi .
+        
+        NOTICE: you must exit the computer you have visited by using Ctrl_d
 
         check the service  status of your computer :  ssh service status
 
