@@ -86,4 +86,31 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
 	2. git commit -a 
 
-	3. git push 
+	3. git push
+
+
+##coding style
+
+1. tab and space do not use them together, our suggestion is using 4 space instead a tab.
+
+2. tips  
+	set autoindent	(设置成回车后自动对齐)
+
+	set expandtab  "把<tab> 展开成空格"
+
+	set tabstop=4  "让一个<tab>等于4个空格"
+
+    In insert mode Ctrl_t or Ctrl_d (处理极个别行不对齐的情况) can handle several special line not standard.
+
+##vim skills
+
+1. help in vim  you can in put :h + "command" then you will know the command how to use.   
+
+        :h i_+"command" represent the fuction in insert mode
+
+        you can use :bd or :q exit it .
+
+2.set dictionnary=/usr/share/dict/words
+
+        you can complete a words in the dictionary in vim by inputg Crtl_x_k at insert mode.
+
