@@ -114,3 +114,24 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
         you can complete a words in the dictionary in vim by inputg Crtl_x_k at insert mode.
 
+3. in the search list of Github host input peter-vim you can see peter's .vimrc'
+
+## some extral skill
+
+        ifconfig view the IP address of your computer .
+
+        sudo apt-get install openssh-server (install a software to let you computer become a service computer)
+
+        ssh username@IP   
+
+        input password
+
+        how to stop the service     sudo service stop
+
+        how to start the service     sudo service stop 
+
+        scp to copy a file use ssh   for instance , scp perter@192.168.1.17:~/hihihi .
+
+        check the service  status of your computer :  ssh service status
+
+        if input an command failed , you can input the completed commmand + !! to run it .
