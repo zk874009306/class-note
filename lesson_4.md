@@ -39,6 +39,8 @@ tips: ctags also can use to check serval files like normal c file .
 
 5. Ctrl-o go back the older place you have visited;
    Ctrl-i go back the newer place you have visited.
+
+
 ldd 查看 一个文件在标准库中的位置
 
 
