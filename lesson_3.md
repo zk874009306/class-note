@@ -117,7 +117,9 @@ http://www.vim.org/scripts/script.php?script_id=2540
 
         you can complete a words in the dictionary in vim by inputing Crtl_x_k at insert mode.
 
-3. in the search list of Github host input peter-vim you can see peter's .vimrc'
+3. you can use Ctrl_n complete a phrase occured in vim .
+
+4. in the search list of Github host input peter-vim you can see peter's .vimrc'
 
 ## some extral skill
         
