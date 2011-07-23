@@ -130,10 +130,10 @@ how to visit other computer in a LAN(局域网)
 
         how to stop the service     sudo service stop
 
-        how to start the service     sudo service stop 
+        how to start the service     sudo service start 
 
         scp to copy a file use ssh   for instance , scp perter@192.168.1.17:~/hihihi .
 
         check the service  status of your computer :  ssh service status
 
-        if input an command failed , you can input the completed commmand + !! to run it .
+if input an command failed , you can input the completed commmand + !! to run it .
