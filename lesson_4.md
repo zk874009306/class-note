@@ -74,3 +74,26 @@ ldd 查看 一个文件在标准库中的位置
         map <tab> :bn<cr>
 
         imap jj <esc>
+
+
+
+## git revert HEAD
+
+当将一个垃圾修该 git push到服务器上， git reset --hard HEAD^ 只在本地能将垃圾修改还原到以前的版本， 如果重新修改 git push的话 ，会和服务器上的版本冲突，git push 会不成功. 只有和服务器上的版本一致才可行，此时将服务器上错我的版本 git pull 下来，用git revert HEAD 回到以前的版本 (此时的版本是垃圾修改前的版本）中间多两次垃圾修改 一次错误， 一次去除错误.
+
+##git checkout + 版本号，可回到先前的版本.
+    git checkout master 回到修改之前的版本
+
+    git branch 查看当前的分支
+
+    git checkout + 版本号 + -b + 版本名  （可给一个历史版本起名字，然后用git checkout + 版本名回到该版本）
+
+## tig
+
+http://jonas.nitro.dk/tig/
+
+        git clone git URL:
+
+## a  suggest software
+
+        gitk   qgit
