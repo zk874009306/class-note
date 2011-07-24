@@ -97,3 +97,7 @@ http://jonas.nitro.dk/tig/
 ## a  suggest software
 
         gitk   qgit
+
+##git br -D one_file_state
+        
+        Delete a branch (you must exit this branch)
