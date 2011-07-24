@@ -101,3 +101,71 @@ http://jonas.nitro.dk/tig/
 ##git br -D one_file_state
         
         Delete a branch (you must exit this branch)
+
+
+## git add .
+
+        add all file in current folder.
+
+## git commit -a -v
+        
+        you can scan you version in detail
+
+        commit -a -v = ci (in put them in .gitconfig file at home list).
+
+## which git 
+
+        view git where are you install
+
+## locate "file name" 
+
+        you can say the file and ralationed file are locate where, but you can only find old file only if you update date libary everyday.
+
+        find file by name .  locate vimrc
+                             sudo  updatedb  (update date libaryi)
+## find xxx|grep git 
+        find git in xxx file 
+        
+        (找特定文件夹能匹配字符串的文件)
+        
+        xxx file folder name    "|"  管道符
+        
+        grep 专门用字符串匹配作筛选
+
+        find xxx list xxx file folder all files. 
+
+##ps aux | grep firefox 
+        
+        list firefox 进程
+
+        (ps aux) list all progress are runnning in system.
+        
+        kill + progress number  关闭该程序
+
+        kill + -9 + 进程号 强行关闭该程序
+
+##查找特定项目特定字符串
+
+
+用make编译，文件夹中必需有makefile文件
+
+链接标准库
+
+        -l+有效库名
+
+## how to use xxx software to find file and edit it 
+    like xxx hello
+
+        1.search hen in github list 
+        
+        2.git clone the hen 
+
+        3.cd ~/hen/search/curse/
+
+        4.open README vim  
+        
+        5. NEXT   make 
+
+        6.sudo make install  
+
+        7. xxx key words
