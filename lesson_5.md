@@ -28,3 +28,22 @@ git checkout -b +name
         back-up a master
 
 
+#include<stdio.h>
+void collect(int a, unsigned char c);
+int d;
+int main(int argc, const char *argv[])
+{
+   /* unsigned int a , c;*/
+    collect(127,4);
+    printf("d = %d\n", d);
+
+    return 0;
+}
+
+
+void collect(int a, unsigned char c)
+{  
+    unsigned char b =0x0f;
+    d = a & (b<<c);
+    d >>= c;
+}
