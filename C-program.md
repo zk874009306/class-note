@@ -37,7 +37,7 @@
 
      unsigned int mask = (1<<31);
     
-    for(; mask>0 ; mask >>= 1)
+     for(; mask>0 ; mask >>= 1)
      {
          printf("%c",((a & mask) > 0) ? '1':'0');
      }
