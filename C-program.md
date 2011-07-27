@@ -56,17 +56,15 @@
  
  {
  
-     unsigned int i,b=10,a;
+     int i,b=10,a;
  
-     unsigned int mask = (1<<31);
+     unsigned int mask = 1;
      
-     for(i=0 ;i<32;i++)
+     for(i=31 ; i>=0 ;i--)
      
      {
      
-         a = b & mask;
-        
-         mask >>= 1;
+         a = (b >> i) & mask;
          
          printf("%d",a);
      }
