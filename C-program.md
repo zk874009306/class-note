@@ -230,3 +230,9 @@ static int a；定义一个变量a ，只能用于本文件（条件a为全局�
     fputs(str,stdout); print string pointed str
 
     fgets(r_str,1023,stdin);  input content store in string pointed r_str
+
+    getc(fp)   only read a char from a file once a time 
+
+    putc(str[i],fp)   write a bit char in a file once a time 
+
+    
