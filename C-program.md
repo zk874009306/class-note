@@ -194,30 +194,39 @@ static int a；定义一个变量a ，只能用于本文件（条件a为全局�
 
 ## about file 
 
-        FILE *pf
+    FILE *pf
 
-        a pointer point a file 
+    a pointer point a file 
 
-        FILE *fopen ("" "")
+    FILE *fopen ("" "")
 
-        fp = fopen("1.txt","r");
+    fp = fopen("1.txt","r");
 
-        you can input file or a path and a file in first "",
+    you can input file or a path and a file in first "",
 
-        r,r+ w,w+ ,a,a+ in second "".
+    r,r+ w,w+ ,a,a+ in second "".
 
-        w+ can creat a file not exsit,r+ cannot.
+    w+ can creat a file not exsit,r+ cannot.
 
-        r+ can read and write , covered you need using. a and a+ not cover.
+    r+ can read and write , covered you need using. a and a+ not cover.
 
-        fprintf (fp,"%s",str); write the content of the string which first address is str to file pionted fp;
+    fprintf (fp,"%s",str); write the content of the string which first address is str to file pionted fp;
 
-        fscanf(fp,"%s",str);   read file , space or enter is a flag means end. storethe content to the string ,str is the first address of the string.
+    fscanf(fp,"%s",str);   read file , space or enter is a flag means end. storethe content to the string ,str is the first address of the string.
 
-        fgets(str,1023,fp);  read file include spade and store it to the string pointed str . read bits number less than 1023 .
+    fgets(str,1023,fp);  read file include spade and store it to the string pointed str . read bits number less than 1023 .
 
-        fputs(str, fp);   write the string pointed by str  
+    fputs(str, fp);   write the string pointed by str  
 
-        a and a+ does‘t covered the oringinal content.
+    a and a+ does‘t covered the oringinal content.
    
-   The four functions are include <stdio.h>.
+    The four functions are include <stdio.h>.
+
+
+    fprintf(stdout,"%s",str);   print string pointed str in screen
+
+    fscanf(stdin,"%s",r_str);   input a content store in r_str point string
+    
+    fputs(str,stdout); print string pointed str
+
+    fgets(r_str,1023,stdin);  input content store in string pointed r_str
