@@ -235,4 +235,9 @@ static int a；定义一个变量a ，只能用于本文件（条件a为全局�
 
     putc(str[i],fp)   write a bit char in a file once a time 
 
-    
+    rewind(fp)  set the file position indicator to the beginning of the     file 
+
+    fseek(fp, 0 ,SEEK_SET); set the position indicator to the offset of the SEEK_SET SEEK_SET means the beginning of the file
+   
+   size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
+   
