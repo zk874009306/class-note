@@ -212,9 +212,9 @@ static int a；定义一个变量a ，只能用于本文件（条件a为全局�
 
     fprintf (fp,"%s",str); write the content of the string which first address is str to file pionted fp;
 
-    fscanf(fp,"%s",str);   read file , space or enter is a flag means end. storethe content to the string ,str is the first address of the string.
+    fscanf(fp,"%s",str);   read file , space or enter is a flag means end. store the content to the string ,str is the first address of the string.
 
-    fgets(str,1023,fp);  read file include spade and store it to the string pointed str . read bits number less than 1023 .
+    fgets(str,1023,fp);  read file include space and store it to the string pointed str . read bits number less than 1023 .
 
     fputs(str, fp);   write the string pointed by str  
 
