@@ -51,6 +51,9 @@ ldd 查看 一个文件在标准库中的位置
         set hidden
         " 不用保存就可以切换vim同时打开的两个文件“”用 bn bp “ 
 
+        " 背景 夜视模式
+        colorscheme evening
+
         set autoindent
         "换行后自动对齐"
 
@@ -70,6 +73,26 @@ ldd 查看 一个文件在标准库中的位置
         "key map
 
         map,ss :set spell<cr>
+
+        nnoremap <c-h> <c-w>h      "vim窗口切换键值映射  ctrl+h  --> ctrl+w +h
+        nnoremap <c-l> <c-w>l
+        nnoremap <c-j> <c-w>j
+        nnoremap <c-k> <c-w>k
+
+        nmap <F4> :Tlist<cr>
+
+        imap jj <esc>
+
+        "taglist 配置 
+        let Tlist_Show_One_File=1 
+        let Tlist_OnlyWindow=1
+        let Tlist_WinWidth=18
+        let Tlist_Exit_OnlyWindow=1
+
+        "win Manager config  map F3 to open WinManger 
+
+        let g:winManagerWindowLayout='FileExplorer|TagList'
+        nmap <F3> :WMToggle<cr>
 
         map <tab> :bn<cr>
 
